@@ -1,0 +1,120 @@
+/*#box1{
+    height: 100px;
+    width: 5rem;
+    background-color: pink;
+}
+#box2{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    font-size: 2em;
+}*/
+
+ /* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+    
+    padding: 25px;
+    margin: 5px;
+    display: inline;
+
+
+} 
+#box1{
+    position: static;
+    background-image: url("ant.jpg");
+    background-size: cover;
+}
+
+#box2{
+    position: relative;
+    top: 20px;
+    
+}
+
+#box3{
+    position: absolute;
+    top: 10px;
+    ;
+}
+#box4{
+    position: sticky;
+    top: 0px;
+    
+}
+#box5{
+    position: fixed;
+    top: 0px;
+} */
+   
+
+
+
+body{
+    text-align: center;
+}
+div{
+    height: 130px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+
+
+#container{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse it will reverse; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* align-items: center; */
+
+}
+#box1{
+    background-color: aqua;
+    width: 100px;
+    flex-grow: 1;
+}
+
+#box2{
+    background-color: aquamarine;
+    height: 200px;
+    /* align-self: flex-end; */
+    /* flex-shrink: 1; */
+    
+    
+}
+
+#box3{
+   background-color: bisque;
+   width: 100px;
+}
+
+#box4{
+    background-color: rgb(22, 84, 62);
+    /* align-self: flex-end; */
+
+}
+
+#box5{
+    background-color: rgb(222, 141, 41);
+}
+a{
+    padding-right: 100px;
+
+}
+li{
+    height: 130px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
